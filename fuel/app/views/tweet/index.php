@@ -1,7 +1,7 @@
 <div class="row"
 	<div class="col-md-8">
 		<img class="img-responsive img-rounded"
-		src="/assets/img/top.jpg "alt="">
+		src="/assets/img/top.png "alt="">
 	</div>
 </div>
 	
