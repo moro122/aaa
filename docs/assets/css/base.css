@@ -1,0 +1,176 @@
+﻿@charset "utf-8";
+body {
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	color: #666666;
+}
+/*ul {
+	list-style: none;
+}*/
+
+/* ナビゲーション */
+.navbar {
+	/* 背景の色消す */	
+	background: rgba(255,255,255,0) !important;
+	border: rgba(255,255,255,0) !important;
+}
+.navbar-collapse {
+	border: rgba(255,255,255,0) !important;
+	padding: 0;
+}
+.navbar-brand {
+	background: url(../images/logo.png) no-repeat left top;
+	background-size: contain; /* 縦横比は保持して、背景領域に収まる最大サイズになるように背景画像を拡大縮小する */
+	height: 76px;
+	width: 244px;
+}
+.nav {
+	background: #fb484e;
+	border-radius: 10px;
+}
+.nav li {
+	border-radius: 10px;
+	border: solid 2px #fb484e;
+}
+.nav li a {
+	border-radius: 10px !important;
+	font-weight: bold !important;
+}
+.nav li a:link, .nav li a:visited {
+	color: #6f4c39 !important;
+}
+.nav li a:hover, .nav li a:active {
+	color: #fff !important;
+}
+#nav_about a:link, #nav_about a:visited {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8bdce7+0,73d6e3+100 */
+	background: #8bdce7; /* Old browsers */
+	background: -moz-linear-gradient(top, #8bdce7 0%, #73d6e3 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #8bdce7 0%, #73d6e3 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #8bdce7 0%, #73d6e3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8bdce7', endColorstr='#73d6e3', GradientType=0 ); /* IE6-9 */
+}
+#nav_guide a:link, #nav_guide a:visited {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d8ee8b+0,c8e65c+100 */
+	background: #d8ee8b; /* Old browsers */
+	background: -moz-linear-gradient(top, #d8ee8b 0%, #c8e65c 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #d8ee8b 0%, #c8e65c 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #d8ee8b 0%, #c8e65c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8ee8b', endColorstr='#c8e65c', GradientType=0 ); /* IE6-9 */
+}
+#nav_animals a:link, #nav_animals a:visited {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe78e+0,ffdf6c+100 */
+	background: #ffe78e; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffe78e 0%, #ffdf6c 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffe78e 0%, #ffdf6c 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffe78e 0%, #ffdf6c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe78e', endColorstr='#ffdf6c', GradientType=0 ); /* IE6-9 */
+}
+#nav_contact a:link, #nav_contact a:visited {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa16c+0,ff8d4d+100 */
+	background: #ffa16c; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffa16c 0%, #ff8d4d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffa16c 0%, #ff8d4d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffa16c 0%, #ff8d4d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa16c', endColorstr='#ff8d4d', GradientType=0 ); /* IE6-9 */
+}
+#nav_sitemap a:link, #nav_sitemap a:visited {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9bddff+0,73cfff+100 */
+	background: #9bddff; /* Old browsers */
+	background: -moz-linear-gradient(top, #9bddff 0%, #73cfff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #9bddff 0%, #73cfff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #9bddff 0%, #73cfff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9bddff', endColorstr='#73cfff', GradientType=0 ); /* IE6-9 */
+}
+#contact #nav_contact a,#contact #nav_contact a,#nav_about a:hover, #nav_about a:active, #nav_guide a:hover, #nav_guide a:active, #nav_animals a:hover, #nav_animals a:active, #nav_contact a:hover, #nav_contact a:active, #nav_sitemap a:hover, #nav_sitemap a:active {
+	background: #fb484e;
+}
+.navbar-toggle {
+	/* ハンバーガーボタン */
+	background: #fb484e !important;
+}
+.navbar-toggle .icon-bar {
+	background: #fff !important;
+}
+
+/* スライド画像 */
+#graphic {
+	margin-bottom: 20px;
+	padding: 0;	
+}
+
+
+/* メインコンテンツ部分 */
+#main {
+	padding: 20px;
+	background-color: #ffffff;
+}
+#main h2 {
+	color: #ffffff;
+	font-weight: bold;
+	margin-top: 0;
+	border-radius: 10px;
+	margin-bottom: 17px;
+	padding: 15px 0 15px 10px;	
+	font-size: 140%;
+	background: #fb484e;
+}
+#news ul {
+	padding-left: 0;
+}
+#news ul li {
+	padding: 20px 0 20px 160px;
+	border-bottom: 1px dotted #fb484e;
+	text-indent: -160px;
+}
+#news ul li time {
+	display: inline-block;
+	width: 160px;
+	font-weight: bold;
+	text-indent: 0;
+}
+/* アサイド部分 */
+#sub {
+	margin: 0;
+	padding: 0;
+}
+/* ページの先頭へ戻る */
+#pagetop {
+	margin-bottom: 0;
+}
+.fa-chevron-circle-up {
+	padding-right: 5px;
+}
+#pagetop a {
+	display: block;
+	min-height: 16px;
+	padding: 6px 0 6px 28px;
+}
+/* フッター */
+address {
+	color: #ffffff;
+	padding: 10px;
+	clear: both;
+	font-style: normal;
+	background: #3fd661;
+}
+#copyright small {
+	font-size: 100%;
+}
+/* お問合せ */
+.contactTitle {
+	font-weight: bold;
+}
+.radio-inline {
+	margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+

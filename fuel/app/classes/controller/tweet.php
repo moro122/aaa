@@ -22,5 +22,26 @@ class Controller_Tweet extends Controller_Template
 		$data["title"]= $this->template->title;
 		$this->template->content = View::forge('tweet/order',$data);
 	}
+
+		public function action_dekki()
+	{
+		$this->template->title = 'ウッドデッキ';
+		$data["title"]= $this->template->title;
+		$this->template->content = View::forge('tweet/dekki',$data);
+	}
+
+	public function action_wood()
+	{
+		$this->template->title = '木工教室';
+		$data["title"]= $this->template->title;
+		$this->template->content = View::forge('tweet/wood',$data);
+	}
 		
+		public function action_Contact()
+	{
+		$this->template->title = 'お問い合わせ';
+		$data["title"]= $this->template->title;
+		$this->template->content = View::forge('tweet/Contact',$data);
+	}
+
 }

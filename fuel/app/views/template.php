@@ -6,6 +6,9 @@
 	<title><?php echo $title; ?></title>
 	<?php echo Asset::css('bootstrap.min.css'); ?>
 
+	<?php echo Asset::css('shop-homepage.css'); ?>
+	
+
 	<style>
 		body { margin: 0px; }
 	</style>
@@ -14,25 +17,25 @@
 <body>
 
 	<nav class="navbar navbar-default navbar-fixed-center"role="navigation">
+
 	<div class="navbar-header">
 	<a class="navbar-brand" href="/">
 	<img src="/assets/img/logo_b.png" alt="">
 	</a>
 	</div>
-	
-  	<nav class="navbar  navbar-default">
+<div class = "container">
+
+  
   <ul class="nav navbar-nav">
 
 	<li><a href="/">Top</a></li>
   	<li><a href="/tweet/about">お店のご紹介</a></li>
   	<li><a href="/tweet/order">オーダーキッド家具</a></li>
-  	<li><a href="#">ウッドデッキ</a></li>
-	<li><a href="#">木工教室</a></li>
-	<li><a href="#">お問い合わせ</a></li>
+  	<li><a href="/tweet/dekki">ウッドデッキ</a></li>
+	<li><a href="/tweet/wood">木工教室</a></li>
+	<li><a href="/tweet/Contact">お問い合わせ</a></li>
 
-	
 
-		
 			</ul>
 		</div>
 	</div>
