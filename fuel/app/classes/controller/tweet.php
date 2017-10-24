@@ -23,6 +23,13 @@ class Controller_Tweet extends Controller_Template
 		$this->template->content = View::forge('tweet/order',$data);
 	}
 
+	public function action_tyumon()
+	{
+		$this->template->title = '注文家具';
+		$data["title"]= $this->template->title;
+		$this->template->content = View::forge('tweet/tyumon',$data);
+	}
+
 		public function action_dekki()
 	{
 		$this->template->title = 'ウッドデッキ';

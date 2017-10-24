@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<title><?php echo $title; ?></title>
 	<?php echo Asset::css('bootstrap.min.css'); ?>
-
 	<?php echo Asset::css('shop-homepage.css'); ?>
+	<?php echo Asset::css('freelancer.min.css'); ?>
 	
 
 	<style>
@@ -32,6 +32,7 @@
   	<li><a href="/tweet/about">お店のご紹介</a></li>
   	<li><a href="/tweet/order">オーダーキッド家具</a></li>
   	<li><a href="/tweet/dekki">ウッドデッキ</a></li>
+	<li><a href="/tweet/tyumon">注文家具</a></li>
 	<li><a href="/tweet/wood">木工教室</a></li>
 	<li><a href="/tweet/Contact">お問い合わせ</a></li>
 
@@ -42,11 +43,15 @@
 		</nav>
 	</nav>
 </nav>
+
+
+
 	<div class="container">
 
 	<div class="col-md-12">
 	<?php echo $content; ?>
 		</div>
 	</div>
+       
 </body>
 </html>
