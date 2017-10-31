@@ -29,32 +29,30 @@
 
                     <div class="col-md-12">
                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            </ol>
+                            
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <img class="slide-image" src="/assets/img/Resized_2006.png" alt="">
                                 </div>
-                                <div class="item">
-                                    <img class="slide-image" src="/assets/img/ranp.png" alt="">
-                                </div>
-                                <div class="item">
-                                    <img class="slide-image" src="/assets/img/post1.png" alt="">
-                                </div>
-                            </div>
-                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-                        </div>
+                              
                     </div>
 
                 </div>
+
+				<h2>注文家具のご相談・ご注文を承ります</h2>
+		<p>
+			オーダーの家具も、手順はオーダキット家具と同じです。出来上がったものを、送らせていただきます。<br />
+			出来上がりの日数は物により異なります。詳しくはお問い合わせください。
+		</p>
+
+
+			<h2>決済方法について</h2>
+		<p>
+			当サイトの注文家具の代金お支払いは、現金・銀行振込となります。<br/>
+			クレジットカード決済は、ご利用出来ません。<br/>
+		</p>
+	
+			<h2>ウッドワークのネットショップを始めました!</h2>
 
                 <div class="row">
 
@@ -64,7 +62,7 @@
                             <div class="caption">
                                 <h4><a href="#">ポスト</a>
                                 </h4>
-                                <p>かわいいポスト</p>
+                                <a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p>
                             </div>
                             <div class="ratings">
      
@@ -90,11 +88,11 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="/assets/img/posts.png" alt="">
+                            <img src="/assets/img/post.png" alt="">
                             <div class="caption">
                                 <h4><a href="#">ポストの脚</a>
                                 </h4>
-                                <p>ポストの脚</p>
+                                <a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p>
                             </div>
                             <div class="ratings">
                                
@@ -109,7 +107,7 @@
                                 
                                 <h4><a href="#">木製アクセサリ</a>
                                 </h4>
-                                <p>アクセサリ</p>
+                                <a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p>
                             </div>
                             <div class="ratings">
                               
@@ -117,22 +115,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-  
-        
-
-        
-
+                   
 </body>
 
 </html>

@@ -35,7 +35,7 @@
 	営業時間： AM 10:00～PM 8:00（火曜定休日）
 	住所：長野県諏訪市豊田264-1
 	TEL：0266-52-3714　　FAX：0266-52-3716
-	e-mail : web-master@woodwork-y.jp
+	<a href="mailto:web-master@woodwork-y.jp">e-mail : web-master@woodwork-y.jp</a></br>
 	代表：山﨑　眞弘 
 	</p>
 	</div>
