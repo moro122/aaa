@@ -1,5 +1,24 @@
 <div class="row">
-	<h3><?php echo $title; ?>ご紹介</h3>
+
+
+<h3><?php echo $title; ?></h3>
+	 <div class="col-md-9">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="image" src="/assets/img/shoukai.png" alt="">
+                                </div>
+                              
+                    </div>
+
+                </div>
+
+	
 	<p>
 	木と憩いの場、
 	クラフト工房ウッドワークをご紹介いたします。

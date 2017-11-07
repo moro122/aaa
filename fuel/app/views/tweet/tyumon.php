@@ -32,7 +32,7 @@
                             
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img class="slide-image" src="/assets/img/Resized_2006.png" alt="">
+                                    <img class="image" src="/assets/img/Resized_2006.png" alt="">
                                 </div>
                               
                     </div>
