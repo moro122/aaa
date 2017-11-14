@@ -1,24 +1,22 @@
-<div class="row">
 
 
-<h3><?php echo $title; ?></h3>
-	 <div class="col-md-9">
+<h1>お店のご紹介</h1>
+<?php echo Asset::css('bootstrap.min.css'); ?>
+	<?php echo Asset::css('business-frontpage.css'); ?>
 
-                <div class="row carousel-holder">
 
-                    <div class="col-md-12">
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                            
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class="image" src="/assets/img/shoukai.png" alt="">
-                                </div>
-                              
-                    </div>
+               <header class="b">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+           <img class="slide-image" src="/assets/img/shoukai.png" alt="">
 
-                </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-	
+
 	<p>
 	木と憩いの場、
 	クラフト工房ウッドワークをご紹介いたします。
@@ -50,6 +48,13 @@
 	<h3>
 	クラフト工房ウッドワークの基本情報
 	</h3>
+
+
+	<?php echo Asset::js("jquery.min.js"); ?>
+
+        <?php echo Asset::js("bootstrap.bundle.min.js"); ?>
+
+
 	<p>
 	営業時間： AM 10:00～PM 8:00（火曜定休日）
 	住所：長野県諏訪市豊田264-1

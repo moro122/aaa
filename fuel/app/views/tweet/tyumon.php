@@ -10,6 +10,9 @@
     <!-- Custom CSS -->
  <?php echo Asset::css('shop-homepage.css'); ?>
 
+		<?php echo Asset::css('bootstrap.min.css'); ?>
+	<?php echo Asset::css('business-frontpage.css'); ?>
+
   <head>
 
   <meta charset="utf-8">
@@ -23,21 +26,19 @@
 </head>
 
 <body>
-            <div class="col-md-9">
+            
 
-                <div class="row carousel-holder">
 
-                    <div class="col-md-12">
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                            
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class="image" src="/assets/img/Resized_2006.png" alt="">
-                                </div>
-                              
-                    </div>
+	<header class="a">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+           <img class="slide-image" src="/assets/img/Resized_2006.png" alt="">
 
-                </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
 				<h2>注文家具のご相談・ご注文を承ります</h2>
 		<p>
@@ -60,10 +61,11 @@
                         <div class="thumbnail">
                             <img src="/assets/img/Resized_2006.png" alt="">
                             <div class="caption">
-                                <h4><a href="#">ポスト</a>
+                                <h4 class = "a">ポスト
                                 </h4>
                                 <a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p>
                             </div>
+								
                             <div class="ratings">
      
                             </div>
@@ -75,7 +77,7 @@
                             <img src="/assets/img/ranp.png" alt="">
                             <div class="caption">
                               
-                                <h4><a href="#">ランプシェード</a>
+                                <h4 class = "a">ランプシェード</a>
                                 </h4>
                                <a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p>
                             </div>
@@ -90,7 +92,7 @@
                         <div class="thumbnail">
                             <img src="/assets/img/post.png" alt="">
                             <div class="caption">
-                                <h4><a href="#">ポストの脚</a>
+                                <h4 class="a">ポストの脚</a>
                                 </h4>
                                 <a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p>
                             </div>
@@ -105,7 +107,7 @@
                             <img src="/assets/img/nec.png" alt="">
                             <div class="caption">
                                 
-                                <h4><a href="#">木製アクセサリ</a>
+                                <h4 class="a">木製アクセサリ</a>
                                 </h4>
                                 <a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p>
                             </div>
@@ -115,7 +117,13 @@
                         </div>
                     </div>
 
+		
+
                    
 </body>
+
+	<?php echo Asset::js("jquery.min.js"); ?>
+        <?php echo Asset::js("bootstrap.bundle.min.js"); ?>
+
 
 </html>
