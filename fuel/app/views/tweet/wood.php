@@ -283,7 +283,13 @@
 
 
       </div>
+
+	<?php echo Asset::js("jquery.min.js"); ?>
+        <?php echo Asset::js("bootstrap.bundle.min.js"); ?>
       <!-- /.row -->
+</body>
+
+</html>
      
 
 

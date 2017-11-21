@@ -7,10 +7,8 @@
 
     <title>ウッドデッキ</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/portfolio-item.css" rel="stylesheet">
+   	<?php echo Asset::css('bootstrap.min.css'); ?>
+	<?php echo Asset::css('portfolio-item.css'); ?>
   </head>
   <body>
 
@@ -80,14 +78,31 @@
           </a>
         </div>
 
+		<div class="col-md-3 col-sm-6 mb-4">
+          <a href="#">
+            <img class="slide-image" src="/assets/img/wooddeck7.png" alt="">
+          </a>
+        </div>
+<div class="col-md-3 col-sm-6 mb-4">
+          <a href="#">
+            <img class="slide-image" src="/assets/img/wooddeck8.png" alt="">
+          </a>
+        </div>
+<div class="col-md-3 col-sm-6 mb-4">
+          <a href="#">
+            <img class="slide-image" src="/assets/img/wooddeck9.png" alt="">
+          </a>
+        </div>
+
       </div>
       <!-- /.row -->
 
+			<?php echo Asset::js("jquery.min.js"); ?>
+        <?php echo Asset::js("bootstrap.bundle.min.js"); ?>
+
     
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   
 
   </body>
 

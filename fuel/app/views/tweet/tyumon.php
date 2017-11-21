@@ -10,18 +10,17 @@
     <!-- Custom CSS -->
  <?php echo Asset::css('shop-homepage.css'); ?>
 
+<?php echo Asset::css('4-col-portfolio.css'); ?>
+
 		<?php echo Asset::css('bootstrap.min.css'); ?>
 	<?php echo Asset::css('business-frontpage.css'); ?>
 
   <head>
 
   <meta charset="utf-8">
-   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+ 
+   
+ 
 
 </head>
 
@@ -57,73 +56,60 @@
 
                 <div class="row">
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="/assets/img/Resized_2006.png" alt="">
-                            <div class="caption">
-                                <h4 class = "a">ポスト
-                                </h4>
-                                <a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p>
-                            </div>
-								
-                            <div class="ratings">
-     
-                            </div>
-                        </div>
-                    </div>
+			<div class="row text-center">
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="/assets/img/ranp.png" alt="">
-                            <div class="caption">
-                              
-                                <h4 class = "a">ランプシェード</a>
-                                </h4>
-                               <a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p>
-                            </div>
-                            <div class="ratings">
-                       
-                            </div>
-                        </div>
-                    </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top"src="/assets/img/Resized_2006.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ポスト</h4>
+              <p class="card-text">様々なポストがたくさんあります</p>
+			<a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p></a>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top"src="/assets/img/ranp.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ランプシェード</h4>
+              <p class="card-text">様々なランプシェードがたくさんあります。</p>
+				 <a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p></a>
+            </div>
+          </div>
+        </div>
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="/assets/img/post.png" alt="">
-                            <div class="caption">
-                                <h4 class="a">ポストの脚</a>
-                                </h4>
-                                <a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p>
-                            </div>
-                            <div class="ratings">
-                               
-                            </div>
-                        </div>
-                    </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="/assets/img/post.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ポストの脚</h4>
+              <p class="card-text">様々なポストの脚がたくさんあります</p>
+			<a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p></a>
+            </div>
+           
+          </div>
+        </div>
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="/assets/img/nec.png" alt="">
-                            <div class="caption">
-                                
-                                <h4 class="a">木製アクセサリ</a>
-                                </h4>
-                                <a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p>
-                            </div>
-                            <div class="ratings">
-                              
-                            </div>
-                        </div>
-                    </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="/assets/img/nec.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">木製アクセサリ</h4>
+              <p class="card-text">様々なアクセサリがたくさんあります</p>
+				 <a href="http://www.woodwork-y.com/" shape=""><p>詳しくはこちらより</p></a>
+            </div>
+          
+          </div>
+        </div>
+        
 
-		
+			<?php echo Asset::js("jquery.min.js"); ?>
+        <?php echo Asset::js("bootstrap.bundle.min.js"); ?>
 
                    
 </body>
-
-	<?php echo Asset::js("jquery.min.js"); ?>
-        <?php echo Asset::js("bootstrap.bundle.min.js"); ?>
 
 
 </html>
