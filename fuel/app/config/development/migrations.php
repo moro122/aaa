@@ -6,8 +6,7 @@ return array(
     array(
       'default' => 
       array(
-        0 => '001_create_contacts',
-        1 => '002_create_inquiries',
+        0 => '003_create_otoiawases',
       ),
     ),
     'module' => 

@@ -9,7 +9,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-           <img class="slide-image" src="/assets/img/p.png" alt="">
+           <img class="slide-image" src="/assets/img/e.png" alt=""width="600"height="500">
 
           </div>
         </div>

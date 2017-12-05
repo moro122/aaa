@@ -69,7 +69,7 @@
 			</li>
 
 			<li class="nav-item">
-              <a class="nav-link" href="/tweet/Contact">お問い合わせ</a>
+              <a class="nav-link" href="/otoiawase/create/">お問い合わせ</a>
 			</li>
 
 

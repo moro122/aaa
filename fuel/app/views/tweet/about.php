@@ -1,6 +1,6 @@
 
 
-<h1>お店のご紹介</h1>
+<h2>お店のご紹介</h2>
 <?php echo Asset::css('bootstrap.min.css'); ?>
 	<?php echo Asset::css('business-frontpage.css'); ?>
 
@@ -9,7 +9,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-           <img class="slide-image" src="/assets/img/shoukai.png" alt="">
+           <img class="slide-image" src="/assets/img/shoukai.png" alt=""width="600"height="500">
 
           </div>
         </div>

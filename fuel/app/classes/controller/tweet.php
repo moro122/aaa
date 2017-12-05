@@ -48,7 +48,7 @@ class Controller_Tweet extends Controller_Template
 	{
 		$this->template->title = 'お問い合わせ';
 		$data["title"]= $this->template->title;
-		$this->template->content = View::forge('tweet/Contact',$data);
+		$this->template->content = View::forge('otoiawase/create',$data);
 	}
 
 }

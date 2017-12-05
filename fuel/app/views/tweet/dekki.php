@@ -1,11 +1,6 @@
     <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>ウッドデッキ</title>
+    
 
    	<?php echo Asset::css('bootstrap.min.css'); ?>
 	<?php echo Asset::css('portfolio-item.css'); ?>
@@ -13,7 +8,7 @@
   <body>
 
       <!-- Portfolio Item Heading -->
-      <h1>ウッドデッキ</h1>
+      <h2>ウッドデッキ</h2>
 
       <!-- Portfolio Item Row -->
       <div class="row">
