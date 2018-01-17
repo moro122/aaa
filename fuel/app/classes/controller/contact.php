@@ -1,13 +1,15 @@
 <?php
 class Controller_Contact extends Controller_Template
 {
+	private $fields = array('name','email','msg');
 
 	public function action_index()
 	{
+
+	
 		$data['Contacts'] = Model_Contact::find('all');
 		$this->template->title = "Contacts";
 		$this->template->content = View::forge('contact/index', $data);
-
 	}
 
 	public function action_view($id = null)
@@ -59,7 +61,6 @@ class Controller_Contact extends Controller_Template
 
 		$this->template->title = "Contacts";
 		$this->template->content = View::forge('contact/create');
-
 	}
 
 	public function action_edit($id = null)

@@ -1,6 +1,7 @@
 <?php
 class Controller_Otoiawase extends Controller_Template
 {
+private $fields = array('name','email','msg');
 
 	public function action_index()
 	{
@@ -8,8 +9,7 @@ class Controller_Otoiawase extends Controller_Template
 		$this->template->title = "Otoiawases";
 		$this->template->content = View::forge('otoiawase/index', $data);
 
-	}
-
+}
 	
 	public function action_create()
 	{

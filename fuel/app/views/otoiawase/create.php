@@ -5,7 +5,7 @@
 
 
 
-
+<img class="slide-image" src="/assets/img/z.png" alt=""width="600"height="500">
 
 
 
@@ -20,7 +20,7 @@
 				<img src="/assets/img/contact_fax.png" alt="FAX 0266-52-3716" /><br />
 				<a href="mailto:web-master@woodwork-y.jp"><img src="/assets/img/contact_mail.png" alt="web-master@woodwork-y.jp" /></a><br />
 
-<h3>こちらの入力フォームからでもお問い合わせが可能です。</h3>
+<h3>こちらの入力フォームからでもお問い合わせは可能です。</h3>
 <h2>入力フォーム</h2>
 <?php echo Asset::js("jquery.min.js"); ?>
         <?php echo Asset::js("bootstrap.bundle.min.js"); ?>
